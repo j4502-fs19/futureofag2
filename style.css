@@ -6,6 +6,7 @@ h1 {
   font-family: Helvetica;
   font-size: 2em
   margin-bottom: 0;
+  color: #2F4879;
 }
 
 h2 {
@@ -115,11 +116,27 @@ border-color: white;
   display: block;
 }
 
+/* Photo Gallery */
+.photos {
+  text-align: center;
+}
 
+.photos h2{
+  text-align: left;
+  padding: 5px 310px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.photos a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+}
 /* FOOTER */
 
 .footer {
   background-color: #2F4879;
+  margin-top: 200px;
 }
 
 .footer-missourian {
@@ -184,16 +201,14 @@ border-color: white;
 }
 
 #about h1 {
-  font-family: 'Open Sans', sans-serif;
-  color: #2F4879;
   width: 40%;
   text-align: center;
   margin-top: 100px;
 }
 
 #about p {
-  font-family: 'Domine', serif;
   width: 70%;
+  text-align: justify;
 }
 
 /* @media only screen and (min-width: 600px) {

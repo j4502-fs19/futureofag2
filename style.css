@@ -107,8 +107,14 @@ img {
 
 .footer {
   background-color: #2F4879;
+}
+
+.footer-missourian {
   margin-left: 0;
-  margin-right: 0;
+}
+
+.footer-umextension {
+  margin-left: 0;
 }
 
 .footer-missourian img {
@@ -130,6 +136,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0;
 }
 
 #socialsmissourian li {
@@ -137,7 +144,7 @@ img {
 }
 
 #socialsmissourian img {
-  width: 25px;
+  width: 30px;
 }
 
 #socialsextension {
@@ -145,6 +152,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0;
 }
 
 #socialsextension li {
@@ -152,7 +160,7 @@ img {
 }
 
 #socialsextension img {
-  width: 25px;
+  width: 30px;
 }
 
 /* ABOUT PAGES */

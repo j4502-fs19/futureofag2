@@ -1,3 +1,30 @@
+body{
+  background-color: #FBFBF2
+}
+
+h1 {
+  font-family: 'Helvetica'
+  font-size: 0.5em
+}
+
+h2 {
+  font-family: 'Domine'
+  font-size: 0.5em
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif
+  font-size: 0.5em
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em
+}
+
+img {
+  border: none;
+}
 
 #container {
   padding: 0;
@@ -5,45 +32,46 @@
 }
 
 /* HEADER */
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+
+}
+
 .header {
-  width: 100%;
-  height: 60px;
-  background: #FBFBF2;
+
 }
 
 #nav {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: baseline;
-padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 0;
 }
 
 #nav li {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   color: #2F4879;
-  position: relative;
-}
-
-#nav li img {
-  width: 50%;
-  padding: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FBFBF2;
 }
 
 #nav li a:link, a:visited {
   display: block;
   color: #2F4879;
   text-decoration: none;
-  padding: 0px 20px;
+  text-align: center;
+  padding: 4px;
 }
 
 #nav li ul {
   display: none;
   position: absolute;
   background:#FBFBF2;
-  padding: 5px 0px;
-  margin: 0;
 }
 
 #nav li:hover ul {
@@ -51,7 +79,6 @@ padding: 10px 30px;
 }
 
 #nav li ul li a:link, a:visited {
-  padding: 5px 20px;
   width: 100px;
 }
 
@@ -59,19 +86,39 @@ padding: 10px 30px;
   background-color: #EDEDD5;
 }
 
+/* ABOUT THE PROJECT */
+.abouttheproject img {
+  width: 100px;
+}
+
+
+/* GENERIC STORIES */
+.genericstories img {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
 /* FOOTER */
 
 .footer {
   width: 100%;
-  height: 250px;
-  background: #2F4879;
-  color: white;
+  background-color: #2F4879;
+}
+
+.footer img {
+  width: 150px;
+}
+
+.footer-missourian p {
+  text-weight: 0.1em;
 }
 
 .footer a:link, a:visited {
   text-decoration: none;
 }
-
 
 .footer-missourian {
   width: 40%;
@@ -89,10 +136,14 @@ margin-bottom: -10px;
   width: 40%
 }
 
-.socials {
+#socials {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+}
+
+#socials img {
+  width: 25px;
 }
 
 
@@ -115,3 +166,90 @@ margin-bottom: -10px;
   font-family: 'Domine', serif;
   width: 70%;
 }
+
+/* @media only screen and (min-width: 600px) {
+  .header {
+    width: 100%;
+    height: 60px;
+    background: #FBFBF2;
+  }
+
+  #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 10px 30px;
+  }
+
+  #nav li {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    color: #2F4879;
+    position: relative;
+  }
+
+  #nav li img {
+    width: 50%;
+    padding: 0px;
+  }
+
+  #nav li a:link, a:visited {
+    display: block;
+    color: #2F4879;
+    text-decoration: none;
+    padding: 0px 20px;
+  }
+
+  #nav li ul {
+    display: none;
+    position: absolute;
+    background:#FBFBF2;
+    padding: 5px 0px;
+    margin: 0;
+  }
+
+  #nav li:hover ul {
+    display: block;
+  }
+
+  #nav li ul li a:link, a:visited {
+    padding: 5px 20px;
+    width: 100px;
+  }
+
+  #nav li ul li a:hover {
+    background-color: #EDEDD5;
+  }
+
+  .footer {
+      width: 100%;
+      background-color: #2F4879;
+    }
+
+    .footer a:link, a:visited {
+      text-decoration: none;
+    }
+
+    .footer-missourian {
+      width: 40%;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .footer-missourian p {
+    margin-bottom: -10px;
+    }
+
+    .footer-umextension {
+      width: 40%
+    }
+
+    .socials {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+    }
+} */

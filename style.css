@@ -57,7 +57,7 @@ img {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   color: #2F4879;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #FBFBF2;
 }
@@ -74,19 +74,32 @@ img {
   display: none;
   position: absolute;
   background:#FBFBF2;
+  width: 100%;
 }
 
 #nav li:hover ul {
   display: block;
+  padding-left: 0px;
+}
+
+#nav li ul li {
+list-style-type: none;
+border-width: 0.75px;
+border-style: solid;
+border-color: white;
 }
 
 #nav li ul li a:link, a:visited {
-  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #nav li ul li a:hover {
   background-color: #EDEDD5;
 }
+
+
 
 /* ABOUT THE PROJECT */
 .abouttheproject img {

@@ -68,6 +68,11 @@ padding: 10px 30px;
   color: white;
 }
 
+.footer a:link, a:visited {
+  text-decoration: none;
+}
+
+
 .footer-missourian {
   width: 40%;
   padding-left: 20px;

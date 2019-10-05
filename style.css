@@ -1,3 +1,6 @@
+body {
+  background-color: #FBFBF2
+}
 
 #container {
   padding: 0;
@@ -58,6 +61,34 @@ padding: 10px 30px;
 #nav li ul li a:hover {
   background-color: #EDEDD5;
 
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 10px 30px;
+  background-color: #F4D35E
+}
+
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+  color: #2F4879;
+  position: relative;
+}
+
+.footer h3 {
+  font-family: 'Domine', sans-serif;
+  color: #2F4879;
+  position: relative;
+}
+
+.footer li {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  color: #2F4879;
+  position: relative;
 }
 
 

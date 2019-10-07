@@ -65,7 +65,15 @@ img {
   border-color: #FBFBF2;
 }
 
-#nav li a:link, a:visited {
+#nav li a:link {
+  display: block;
+  color: #2F4879;
+  text-decoration: none;
+  text-align: center;
+  padding: 4px;
+}
+
+#nav li a:visited {
   display: block;
   color: #2F4879;
   text-decoration: none;

@@ -1,5 +1,7 @@
-body{
-  background-color: #FBFBF2
+body {
+  background-color: #FBFBF2;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -105,22 +107,28 @@ border-color: white;
   background-color: #5B7C48;
   padding: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .featurestory h1 {
-  text-align: right;
+  /* text-align: right; */
   color: white;
-}
-
-.featurestory img {
-  float: left;
-  width: 70%;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .featurestory p {
   display: inline-block;
   color: white;
+  margin-top: 0;
+}
+
+.featurestory img {
+  /* float: left; */
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* ABOUT THE PROJECT */
@@ -128,7 +136,8 @@ border-color: white;
   background-color: #F4D35E;
   padding: 10px;
   height: 200px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 0;
   padding-top: 5px;
 }
 
@@ -143,30 +152,33 @@ border-color: white;
 
 /* GENERIC STORIES */
 .genericstories {
-  background-color: white;
-  height: 450px;
-  padding-top: 10px;
-  border-style: solid;
-  border-weight: 1px;
-  border-color: #2F4879;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .genericstories img {
   width: 70%;
-  float: left;
-  padding-right: 5px;
-  padding-left: 5px;
+  /* float: left; */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .genericstories p {
-  display: inline-block;
+  /* display: inline-block; */
   color: #2F4879;
+  display: inline-block;
+  margin-top: 0;
 }
 
 .genericstories h2 {
-  font-family: Helvetica;
   color: #2F4879;
-  font-size: 1.5em;
+  font-size: 2em;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
 }
 
 /* Photo Gallery */
@@ -202,11 +214,14 @@ border-color: white;
 
 .footer {
   background-color: #2F4879;
-  margin-top: 200px;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .footer-missourian {
-  margin-left: 0;
+  margin-left: 0px;
 }
 
 .footer-umextension {

@@ -131,6 +131,24 @@ border-color: white;
   display: block;
 }
 
+.featurestory a:link {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.featurestory a:visited {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.featurestory a:hover {
+  display: block;
+  color: #2F4879;
+  padding-left: 0px;
+}
+
 /* ABOUT THE PROJECT */
 .abouttheproject {
   background-color: #F4D35E;
@@ -178,7 +196,24 @@ border-color: white;
   font-size: 2em;
   margin-bottom: 0px;
   margin-top: 10px;
+}
 
+.genericstories a:link {
+  display: block;
+  color: #2F4879;
+  text-decoration: none;
+}
+
+.genericstories a:visited {
+  display: block;
+  color: #2F4879;
+  text-decoration: none;
+}
+
+.genericstories a:hover {
+  display: block;
+  color: #F4D35E;
+  padding-left: 0px;
 }
 
 /* Photo Gallery */

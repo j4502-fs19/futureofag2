@@ -138,11 +138,11 @@ img {
 
 .featurestory h1 {
   color: white;
-  /* margin-bottom: 0;
-  margin-top: 10px; */
   position: absolute;
   bottom: 5%;
   left: 3%;
+  /* margin-bottom: 0;
+  margin-top: 10px; */
   /* z-index: 999; */
   /* margin: 0 auto;
   left: 0;
@@ -154,13 +154,12 @@ img {
 }
 
 .featurestory p {
-  /* display: inline-block; */
   color: white;
-  /* margin-top: 0; */
   position: absolute;
   bottom: 1%;
   left: 3%;
   z-index: 999;
+  /* margin-top: 0; */
   /* margin: 0 auto; */
   /* left: 0;
   right: 0; */
@@ -185,8 +184,9 @@ img {
 
 .featurestory a:hover {
   display: block;
-  color: #F4D35E;
+  color: #F4D35E !important;
   padding-left: 0px;
+  text-decoration: none;
 }
 
 .featurestory a:visited {

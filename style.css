@@ -177,16 +177,16 @@ img {
   text-decoration: none;
 }
 
-.featurestory a:visited {
-  display: block;
-  color: white;
-  text-decoration: none;
-}
-
 .featurestory a:hover {
   display: block;
   color: #F4D35E;
   padding-left: 0px;
+}
+
+.featurestory a:visited {
+  display: block;
+  color: white;
+  text-decoration: none;
 }
 
 .storycontainer {
@@ -246,6 +246,10 @@ img {
 .abouttheproject h2 a:hover {
   text-decoration: none;
   color: #5B7C48;
+}
+
+.abouttheproject h2 a:visited {
+  text-decoration: none;
 }
 
 

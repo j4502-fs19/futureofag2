@@ -487,7 +487,34 @@ img {
   .genericstories {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
+    grid-column-gap: 20px;
+    justify-content: center;
+  }
+
+/* this section could be used for specialized formatting in the grid if we need it! - lindsey */
+  /* .storypic1 {
+
+  }
+
+  .story1 {
+
+  }
+
+  .storypic2 {
+
+  }
+
+  .story2 {
+
+  }
+
+  .storypic3 {
+
+  }
+
+  .story3 {
+
+  } */
 }
 
 @media only screen and (min-width: 1000px) {

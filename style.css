@@ -361,7 +361,6 @@ img {
   /* display: inline-block; */
   color: #2F4879;
   display: inline-block;
-  margin-top: 0;
   }
 
 .genericstory1 h2 {
@@ -369,6 +368,25 @@ img {
   font-size: 2em;
   margin-bottom: 0px;
   margin-top: 10px;
+}
+
+.genericstorycontainer {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.genericstorycontainer img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Photo Gallery */

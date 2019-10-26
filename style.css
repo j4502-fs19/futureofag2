@@ -338,6 +338,39 @@ img {
   padding-left: 0px;
 }
 
+/* Generic Story 1 */
+
+.genericstory1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.genericstory1 img {
+  width: 100%;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.genericstory1 p {
+  /* display: inline-block; */
+  color: #2F4879;
+  display: inline-block;
+  margin-top: 0;
+  }
+
+.genericstory1 h2 {
+  color: #2F4879;
+  font-size: 2em;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
 /* Photo Gallery */
 .photos {
   text-align: center;

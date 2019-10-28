@@ -6,16 +6,17 @@
 	<title>	Future of Agriculture </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Domine|Open+Sans:600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Domine|Open+Sans:600&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
 
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 		<script src="js.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-	 <div id="container">
+	  <div id="container">
 <!--Header div for brand logo and navigation items-->
 <div class="header">
 	<div class="top">
@@ -44,37 +45,40 @@
 		</ul>
 	</div>
 
-<!-- PHOTOS WILL GO HERE -->
-<div class="photos">
-	<h1>Photo Gallery</hi>
-	<div class="row">
-	  <div class="column">
-	    <img src="images/farm.jpg">
-	    <img src="images/farm.jpg">
-			<img src="images/farm.jpg">
-	  </div>
-	  <div class="column">
-	    <img src="images/farm.jpg">
-			<img src="images/farm.jpg">
-			<img src="images/farm.jpg">
-	  </div>
-</div>
-<!-- will be designed to be slideshow later -->
+	<!-- PHOTOS WILL GO HERE -->
+	<!-- <div class="photos">
+		<h1>Photo Gallery</hi>
+		<div class="row">
+		  <div class="column">
+		    <img src="images/farm.jpg">
+		    <img src="images/farm.jpg">
+				<img src="images/farm.jpg">
+		  </div>
+		  <div class="column">
+		    <img src="images/farm.jpg">
+				<img src="images/farm.jpg">
+				<img src="images/farm.jpg">
+		  </div>
+	</div> -->
 
 
-<!-- <h2><a href="#">Headline for photo</a></h2>
-	<a href="#"><img src="images/farm.jpg" width="50%" alt="A cover photo for a story in the project." /></a>
+	<div class="photos">
 
-<h2><a href="#">Headline for photo</a></h2>
-	<a href="#"><img src="images/farm.jpg" width="50%" alt="A cover photo for a story in the project." /></a>
+		<h1>Photo Gallery</h1>
 
-<h2><a href="#">Headline for photo</a></h2>
-	<a href="#"><img src="images/farm.jpg" width="50%" alt="A cover photo for a story in the project." /></a>
+			<h2><a href="featurestory1.html">Headline for story</h2>
 
-<h2><a href="#">Headline for photo</a></h2>
-	<a href="#"><img src="images/farm.jpg" width="50%" alt="A cover photo for a story in the project." /></a> -->
+		<div class="flexslider">
+			<ul class="slides">
+						<li><a href="#"><img src="images/farm.jpg" alt="A cover photo for a story in the project." /></a></li>
+						<li><a href="#"><img src="images/tractor.jpg" alt="A cover photo for a story in the project."/></a></li>
+						<li><a href="#"><img src="images/cow.jpg" alt="A cover photo for a story in the project." /></a></li>
+				</ul>
+			</div>
 
-</div>
+	</div>
+
+
 
 <div class="footer">
 <div class="footer-missourian">
@@ -99,7 +103,13 @@
 
 </div>
 
-
+<script>
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		controlsContainer: '.flexslider'
+	});
+});
+</script>
 </body>
-
 </html>

@@ -223,6 +223,13 @@ img {
   margin-bottom: 30px;
 }
 
+.pquote {
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    color: #5B7C48;
+    margin: 0;
+}
 
 /* ABOUT THE PROJECT */
 
@@ -358,7 +365,6 @@ img {
 }
 
 .genericstory1 p {
-  /* display: inline-block; */
   color: #2F4879;
   display: inline-block;
   }

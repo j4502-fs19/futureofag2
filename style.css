@@ -691,7 +691,14 @@ html[xmlns] .slides { display: block; }
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 600px) {
-
+  .genericstories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -751,11 +758,6 @@ html[xmlns] .slides { display: block; }
     grid-template-columns: 1fr 1fr;
   }
 
-
-
-
-
-
 /* this section could be used for specialized formatting in the grid if we need it! - lindsey */
   /* .storypic1 {
 
@@ -786,15 +788,23 @@ html[xmlns] .slides { display: block; }
 
 @media only screen and (min-width: 1000px) {
   body {
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   body {
-    max-width: 60%;
+    max-width: 75%;
     margin: auto;
+  }
+  .genericstories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: center;
   }
 }
 

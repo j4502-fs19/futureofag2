@@ -590,6 +590,10 @@ html[xmlns] .slides { display: block; }
   color: #F4D35E;
 }
 
+video {
+  margin: auto;
+}
+
 
 
 
@@ -756,6 +760,32 @@ html[xmlns] .slides { display: block; }
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .storycontainer p {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 1.75em;
+  }
+
+  .storycontainer .caption {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .genericstorycontainer p {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 1.75em;
+  }
+
+  .genericstorycontainer .caption {
+    max-width: 100%;
+    font-size: 14px;
   }
 
 /* this section could be used for specialized formatting in the grid if we need it! - lindsey */

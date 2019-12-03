@@ -8,7 +8,7 @@ h1 {
   font-family: 'Domine';
   font-size: 2em
   margin-bottom: 0;
-  color: #2F4879;
+  color: #1e1e1e;
 }
 
 h2 {
@@ -44,7 +44,7 @@ img {
 
 #logo {
   margin: auto;
-  width: 250px;
+  width: 300px;
   padding-bottom:10px;
 }
 
@@ -59,14 +59,14 @@ img {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   list-style-type: none;
-  color: #2F4879;
+  color: #1e1e1e;
   border-bottom: 1px solid white;
   background-color: white;
 }
 
 #nav li a {
   display: block;
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
   text-align: center;
   padding: 4px;
@@ -75,13 +75,13 @@ img {
 
 #nav li a:hover {
   color: white;
-  background-color: #2F4879;
+  background-color: #1e1e1e;
 }
 
 /*
 #nav li a:visited {
   display: block;
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
   text-align: center;
   padding: 4px;
@@ -89,7 +89,7 @@ img {
 
 #nav li ul {
   display: none;
-  background: #2F4879;
+  background: #1e1e1e;
   width: 100%;
 }
 
@@ -97,20 +97,20 @@ img {
   display: block;
   padding-left: 0px;
   color: white;
-  background-color: #2F4879;
+  background-color: #1e1e1e;
 }
 
-#nav li ul li {
+/* #nav li ul li {
   list-style-type: none;
   border-width: 0.75px;
   border-style: solid;
   border-color: white;
-  color: #2F4879;
+  color: #1e1e1e;
   background-color: white;
 }
 
 #nav li ul li a:link, a:visited {
-  color: #2F4879;
+  color: #1e1e1e;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -118,15 +118,16 @@ img {
 }
 
 #nav li ul li a:hover {
-  background-color: #2F4879;
+  background-color: #1e1e1e;
   color: #fff;
-}
+} */
 
 .menu-trigger {
   text-decoration: none;
   font-size: 35px;
   margin-right: 20px;
   margin-bottom: 10px;
+  color: #1e1e1e;
 }
 
 /* FEATURE STORY */
@@ -186,9 +187,9 @@ img {
 
 .featurestory a:hover {
   display: block;
-  color: #F4D35E !important;
+  color: #ffffff !important;
   padding-left: 0px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .featurestory a:visited {
@@ -235,11 +236,11 @@ img {
 
 /* FROM MATT: I don't think the PDF file preview should be to the right of the text, I think we should put it above. Thoughts? */
 .abouttheproject {
-  background-color: #F4D35E;
+  background-color: #304779;
   padding: 10px;
   height: 300px;
   margin-bottom: 0px;
-  margin-top: 0;
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -256,21 +257,24 @@ img {
 
 .abouttheproject h2 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .abouttheproject h2 a:hover {
-  text-decoration: none;
-  color: #5B7C48;
+  text-decoration: underline;
 }
 
 .abouttheproject h2 a:visited {
   text-decoration: none;
 }
 
+.abouttheproject p {
+  color: white;
+}
+
 
 /* .abouttheproject {
-  background-color: #F4D35E;
+  background-color: #ffffff;
   padding: 10px;
   height: 200px;
   margin-bottom: 0px;
@@ -307,7 +311,7 @@ img {
 
 .genericstories p {
   /* display: inline-block; */
-  color: #2F4879;
+  color: #1e1e1e;
   display: inline-block;
   margin-top: 0;
   padding-bottom: 15px;
@@ -315,13 +319,13 @@ img {
 
 .caption {
   font-size: 14px;
-  color: #2F4879;
+  color: #1e1e1e;
   background-color: #FBFBF2;
   padding: 12px;
 }
 
 .genericstories h2 {
-  color: #2F4879;
+  color: #1e1e1e;
   font-size: 2em;
   margin-bottom: 0px;
   margin-top: 10px;
@@ -329,19 +333,20 @@ img {
 
 .genericstories a:link {
   display: block;
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
 }
 
 .genericstories a:visited {
   display: block;
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
 }
 
 .genericstories a:hover {
   display: block;
-  color: #F4D35E;
+  color: #6d6d6d;
+  text-decoration: underline;
   padding-left: 0px;
 }
 
@@ -365,12 +370,12 @@ img {
 }
 
 .genericstory1 p {
-  color: #2F4879;
+  color: #1e1e1e;
   display: inline-block;
   }
 
 .genericstory1 h2 {
-  color: #2F4879;
+  color: #1e1e1e;
   font-size: 2em;
   margin-bottom: 0px;
   margin-top: 10px;
@@ -410,11 +415,11 @@ text-align: center;
 
 .photos h2 > a:link {
   text-decoration: none;
-  color: #2F4879;
+  color: #1e1e1e;
 }
 
 .photos h2 > a:hover {
-  color: #F4D35E;
+  color: #ffffff;
 }
 
 .flex-container a:active,
@@ -486,7 +491,7 @@ html[xmlns] .slides { display: block; }
 	cursor: pointer;
 	text-indent: -9999px;
 	z-index: 9999;
-	background-color: #F4D35E;
+	background-color: #ffffff;
 }
 
 .flex-direction-nav a:before {
@@ -553,7 +558,7 @@ html[xmlns] .slides { display: block; }
 }
 
 .flex-control-paging li a.flex-active {
-	background-color: #F4D35E;
+	background-color: #ffffff;
 }
 
 .row {
@@ -588,12 +593,12 @@ html[xmlns] .slides { display: block; }
 }
 
 .videos h2 > a:link {
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
 }
 
 .videos h2 > a:hover {
-  color: #F4D35E;
+  color: #ffffff;
 }
 
 video {
@@ -610,7 +615,7 @@ video {
 /* FOOTER */
 
 .footer {
-  background-color: #2F4879;
+  background-color: #304779;
   margin-top: 0px;
   padding-top: 65px;
   padding-bottom: 65px;
@@ -709,6 +714,7 @@ video {
     grid-column-end: 2;
     justify-content: center;
   }
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -834,6 +840,9 @@ video {
     max-width: 75%;
     margin: auto;
   }
+  }
+
+
   /* .genericstories {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -848,7 +857,7 @@ video {
 #nav li {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
-  color: #2F4879;
+  color: #1e1e1e;
   position: relative;
 }
 
@@ -859,7 +868,7 @@ video {
 
 #nav li a:link, a:visited {
   display: block;
-  color: #2F4879;
+  color: #1e1e1e;
   text-decoration: none;
   padding: 0px 20px;
 }
@@ -885,7 +894,7 @@ video {
 
 .footer {
     width: 100%;
-    background-color: #2F4879;
+    background-color: #1e1e1e;
   }
 
   .footer a:link, a:visited {

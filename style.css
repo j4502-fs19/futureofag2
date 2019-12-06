@@ -350,6 +350,35 @@ img {
   padding-left: 0px;
 }
 
+
+.myButton {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 0px -1px #1e1e1e;
+	background-color:transparent;
+	border:2px solid #1e1e1e;
+	display:inline-block;
+	cursor:pointer;
+	color:#1e1e1e;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 30px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
 /* Generic Story 1 */
 
 .genericstory1 {

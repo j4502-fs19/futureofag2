@@ -745,10 +745,6 @@ video {
   padding: 0;
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 600px) {
@@ -763,6 +759,7 @@ video {
   .featurestory h1 {
     bottom: 5%;
   }
+
 }
 
 @media only screen and (min-width: 800px) {

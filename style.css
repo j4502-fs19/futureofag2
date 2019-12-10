@@ -380,6 +380,11 @@ img {
 
 /* Generic Story 1 */
 
+.storyheader {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .genericstory1 {
   padding-left: 30px;
   padding-right: 30px;
@@ -399,21 +404,23 @@ img {
 
 .genericstory1 p {
   color: #1e1e1e;
-  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
   }
 
 .genericstory1 h2 {
   color: #1e1e1e;
   font-size: 2em;
   margin-bottom: 0px;
-  margin-top: 10px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .genericstorycontainer {
   padding-bottom: 30px;
+  padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 0px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -789,6 +796,12 @@ video {
     grid-column-start: 1;
     grid-column-end: 2;
     justify-content: center;
+  }
+
+  .genericstorycontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+
   }
 
   .flex-control-paging li a {

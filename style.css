@@ -241,7 +241,7 @@ img {
   height: 300px;
   margin-bottom: 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -253,6 +253,7 @@ img {
 
 .abouttheproject img {
   width: 100px;
+  margin-left: 30px;
 }
 
 .abouttheproject h2 a {

@@ -206,7 +206,7 @@ img {
 }
 
 .storycontainer img {
-  width: 100%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -228,7 +228,7 @@ img {
     font-size: 26px;
     line-height: 0.9;
     font-style: italic;
-    color: #5B7C48;
+    color: #304779;
     margin: 0;
 }
 
@@ -350,7 +350,6 @@ img {
   padding-left: 0px;
 }
 
-
 .myButton {
   text-align: center;
   padding-bottom: 30px;
@@ -421,7 +420,7 @@ img {
 }
 
 .genericstorycontainer img {
-  width: 100%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -817,8 +816,9 @@ video {
 
   .storycontainer p {
     max-width: 70%;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size: 18px;
     line-height: 1.75em;
   }
@@ -826,12 +826,14 @@ video {
   .storycontainer .caption {
     max-width: 100%;
     font-size: 14px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .genericstorycontainer p {
     max-width: 70%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 150px;
+    margin-left: 150px;
     font-size: 18px;
     line-height: 1.75em;
   }
@@ -839,6 +841,8 @@ video {
   .genericstorycontainer .caption {
     max-width: 100%;
     font-size: 14px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
 /* this section could be used for specialized formatting in the grid if we need it! - lindsey */
